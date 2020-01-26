@@ -626,6 +626,10 @@ input[type="email"] {
     }
 
     /* FOOTER STYLES */
+    .footer-grey-container {
+        padding: 55px 20px 205px 20px;
+    }
+    
     .contact-addresses {
         min-width: 148px;
         left: 25%;
@@ -634,10 +638,6 @@ input[type="email"] {
     .pages {
         min-width: 148px;
         right: 25%;
-    }
-
-    .footer-grey-container {
-        padding: 55px 20px 205px 20px;
     }
 }
 
