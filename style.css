@@ -553,6 +553,45 @@ input[type="email"] {
     .candid-photography-text p {
         margin: 30px 0;
     }
+}
+
+@media (max-width: 1059px) {
+    /* FOOTER STYLES */
+    input[type="submit"] {
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 830px) {
+    /* HEADER STYLES */
+    header {
+        padding: 130px 0 270px 0;
+    }
+
+    /* about-shutter SECTION STYLES */
+    .about-shutter {
+        padding: 40px 30px 50px 30px;
+    }
+
+    .about-shutter p {
+        max-width: 335px;
+        margin: 20px auto 30px auto;
+    }
+
+    /* three-image-panel SECTION STYLES */
+    .three-image-panel {
+        padding: 0;
+    }
+
+    .top-two {
+        float: left;
+        width: 50%;
+        margin: 0;
+    }
+
+    .third-image {
+        display: none;
+    }
 
     /* FOOTER STYLES */
     .footer-grey-container {
@@ -594,53 +633,6 @@ input[type="email"] {
     }
 }
 
-@media (max-width: 810px) {
-    /* HEADER STYLES */
-    header {
-        padding: 130px 0 270px 0;
-    }
-
-    /* about-shutter SECTION STYLES */
-    .about-shutter {
-        padding: 40px 30px 50px 30px;
-    }
-
-    .about-shutter p {
-        max-width: 335px;
-        margin: 20px auto 30px auto;
-    }
-
-    /* three-image-panel SECTION STYLES */
-    .three-image-panel {
-        padding: 0;
-    }
-
-    .top-two {
-        float: left;
-        width: 50%;
-        margin: 0;
-    }
-
-    .third-image {
-        display: none;
-    }
-
-    /* FOOTER STYLES */
-    .footer-grey-container {
-        padding: 55px 20px 205px 20px;
-    }
-    
-    .contact-addresses {
-        min-width: 148px;
-        left: 25%;
-    }
-
-    .pages {
-        min-width: 148px;
-        right: 25%;
-    }
-}
-
 @media (max-width: 790px) {
     /* HEADER STYLES */
     .top-left-logo {
@@ -674,11 +666,28 @@ input[type="email"] {
 
     /* FOOTER STYLES */
     .contact-addresses {
-        left: 20%;
+        left: 24%;
     }
 
     .pages {
-        right: 20%;
+        right: 23%;
+    }
+}
+
+@media (max-width: 665px) {
+    /* FOOTER STYLES */
+    .contact-addresses {
+        width: 50%;
+        position: relative;
+        top: 550px;
+        left: 25%;
+    }
+
+    .pages {
+        width: 50%;
+        position: relative;
+        top: 0px;
+        left: 25%;
     }
 }
 
@@ -687,15 +696,6 @@ input[type="email"] {
     h1 {
         font-size: 10.0rem;
         line-height: 4.8rem;
-    }
-
-    /* FOOTER STYLES */
-    .contact-addresses {
-        left: 15%;
-    }
-
-    .pages {
-        right: 15%;
     }
 }
 
@@ -706,14 +706,6 @@ input[type="email"] {
     }
 
     /* FOOTER STYLES */
-    .contact-addresses {
-        left: 5%;
-    }
-
-    .pages {
-        right: 5%;
-    }
-
     input[type="email"] {
         padding: 15px 90px;
     }
@@ -747,12 +739,6 @@ input[type="email"] {
 
     .candid-photography-text p {
         font-size: 1.6rem;
-    }
-
-    /* FOOTER STYLES */
-    .contact-addresses, 
-    .pages {
-        top: 282px;
     }
 }
 
