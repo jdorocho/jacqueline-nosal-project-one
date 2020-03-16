@@ -122,6 +122,17 @@ input[type="email"] {
     border-style: none;
 }
 
+.top-nav a:hover, 
+.pages-nav a:hover {
+    text-decoration: underline;
+}
+
+button:hover, 
+input[type="submit"]:hover {
+    background-color: #C08AC3;
+    color: white;
+}
+
 /* HEADER STYLES */
 header {
     background-image: url('shutter-assets/asset-1.jpg');
@@ -209,6 +220,10 @@ header i:last-child {
     margin-right: 0;
 }
 
+.social-nav a:hover {
+    color: #E7A8E6;
+}
+
 /* about-shutter SECTION STYLES */
 .about-shutter {
     background-color: #F0F5FF;
@@ -256,7 +271,8 @@ header i:last-child {
 
 .mid-page-box {
     float: left;
-    margin: 0 56px 0 56px;
+    margin: 0 55px 0 55px;
+    border-bottom: 1px solid transparent;
 }
 
 .mid-page-nav-with-mountains a {
@@ -279,6 +295,10 @@ header i:last-child {
 
 .mid-page-box:last-child {
     margin-right: 0;
+}
+
+.mid-page-box:hover {
+    border-bottom: 1px solid white;
 }
 
 /* behind-the-lens SECTION STYLES */
