@@ -94,6 +94,13 @@ h3,
     padding: 80px 0;
 }
 
+.top-nav a, 
+.pages-nav a {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: all 0.3s ease;
+}
+
 .about-shutter p, 
 .behind-the-lens p, 
 .read-more-with-photos p {
@@ -110,6 +117,7 @@ input[type="submit"] {
     font-size: 1.8rem;
     font-weight: 700;
     text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 
 input[type="submit"] {
@@ -124,7 +132,7 @@ input[type="email"] {
 
 .top-nav a:hover, 
 .pages-nav a:hover {
-    text-decoration: underline;
+    text-decoration-color: #FCFCFC;
 }
 
 button:hover, 
@@ -208,6 +216,10 @@ header .second-header-nav {
     margin-bottom: 11px;
 }
 
+.social-nav a {
+    transition: all 0.3s ease;
+}
+
 header i:last-child {
     margin-bottom: 0;
 }
@@ -273,6 +285,7 @@ header i:last-child {
     float: left;
     margin: 0 55px 0 55px;
     border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
 }
 
 .mid-page-nav-with-mountains a {
